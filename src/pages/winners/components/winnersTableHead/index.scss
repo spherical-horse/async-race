@@ -1,0 +1,9 @@
+.winners-table__header {
+  color: var(--main-text-color);
+  background-color: cadetblue;
+}
+
+#winnersTableWinsSort,
+#winnersTableTimeSort {
+  cursor: pointer;
+}

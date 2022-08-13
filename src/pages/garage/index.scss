@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-bg-color: #000;
+  --main-text-color: #fff;
+  --main-font-family: sans-serif;
+  --buttons-font-size: 12px;
+  --buttons-font-weight: bold;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  font-family: var(--main-font-family);
+}
+
+.nav {
+  margin-bottom: 20px;
+}
+
+.control-panel {
+  padding: 5px;
+  width: 300px;
+}
+
+.car-form {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+
+  &__input {
+    font-size: var(--buttons-font-size);
+    outline: none;
+    width: 166px;
+  }
+
+  &__button {
+    text-transform: uppercase;
+    font-size: var(--buttons-font-size);
+    font-weight: var(--buttons-font-weight);
+    height: 27px;
+  }
+}
+
+.winner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-style: italic;
+  font-weight: bold;
+  font-size: 70px;
+  text-align: center;
+  background-color: #000;
+  display: none;
+  z-index: 100;
+}

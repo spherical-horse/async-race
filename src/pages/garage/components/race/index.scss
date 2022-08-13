@@ -1,0 +1,74 @@
+.race {
+  margin-bottom: 20px;
+
+  &__buttons-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 5px;
+  }
+
+  &__car-name {
+    display: inline-flex;
+  }
+
+  &__track {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px dashed var(--main-text-color);
+  }
+
+  &__track-left-container {
+    display: flex;
+  }
+
+  &__car-container {
+    width: 120px;
+    margin-left: 15px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  &__track-right-container {
+    width: 50px;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 200px;
+  }
+
+}
+
+// .race__buttons-container {
+//   display: flex;
+//   align-items: center;
+//   gap: 5px;
+//   margin-bottom: 5px;
+// }
+
+// .race__car-name {
+//   display: inline-flex;
+// }
+
+// .race__track {
+//   display: flex;
+//   justify-content: space-between;
+//   border-bottom: 2px dashed var(--main-text-color);
+// }
+
+// .race__track-left-container {
+//   display: flex;
+// }
+
+// .race__car-container {
+//   width: 120px;
+//   margin-left: 15px;
+//   display: flex;
+//   align-items: flex-end;
+// }
+
+// .race__track-right-container {
+//   width: 50px;
+//   display: flex;
+//   align-items: flex-end;
+//   margin-right: 200px;
+// }
